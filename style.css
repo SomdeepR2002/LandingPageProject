@@ -29,6 +29,10 @@ body{
     gap: 32px;
 }
 
+a:hover{
+    font-size: 32px;
+}
+
 .summary-container{
     display: flex;
     margin: 36px 36px 60px 36px;
@@ -36,12 +40,23 @@ body{
     gap: 52px;
 }
 
+.summary-container > img{
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+
 .opener{
-    font-size: 48px;
+    font-size: 64px;
     font-weight: bolder;
     margin: 0px;
 }
 
+.info-block{
+    width: 600px;
+}
 .info-block > p{
     margin-bottom: 8px 0px;
 }
@@ -56,16 +71,6 @@ body{
 .sign-up:hover{
     background-color: white;
     color: #3882f6;
-}
-
-.info-block{
-    width: 300px;
-}
-
- .summary-container > img{
-    width: 500px;
-    height: 350px;
-    object-fit: cover;
 }
 
 .info-illustrations{
@@ -111,12 +116,13 @@ h2{
 }
 
 .quote-bg{
+    border-radius:8px ;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    margin: 0px 64px;
 }
 .quote-section{
-    
     padding: 0px 64px;
     display: flex;
     flex-direction: column;

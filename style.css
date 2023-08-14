@@ -41,7 +41,7 @@ ul{
     margin: 0px;
 }
 
-.sign-up{
+.sign-up-top{
     padding: 4px 16px;
 }
 
@@ -58,19 +58,75 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 32px;
+    margin: 52px;
 }
 
 .cards-container{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap:8px;
 }
 
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
 .card{
     display: flex;
     flex-direction: column;
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.card > img{
+    border:3px solid royalblue;
+    border-radius: 16px;
+    width: 150px;
+    height:150px;
 }
 
 .text{
-    width: 300px
+    width: 156px;
+    text-align: center;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoter-name{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.sign-up-box{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    margin: 64px;
+    padding: 60px;
+}
+
+.text-section{
+    margin: 0px;
+}
+
+.sign-up{
+    height: 24px;
+    width: 40px;
+    align-self:normal;   
 }
